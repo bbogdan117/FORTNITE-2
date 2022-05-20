@@ -117,7 +117,7 @@ function PLAT(IMAGE, P_API = false) {
     //console.log(SELECTED_PLATFORM);
     //console.log(PLATFORM_API);
 
-    $("#SPLAT").attr("src", "var/img/" + SELECTED_PLATFORM + ".png")
+    $("#SPLAT").attr("src", "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16529683600609ff3a5c98d8b2a1ac01c1e6129786.png")
 
 }
 
@@ -131,7 +131,7 @@ function VBVB(AMO) {
 
     //console.log(SELECTED_VB);
 
-    $("#SPLAT").attr("src", "var/img/" + SELECTED_PLATFORM + ".png")
+    $("#SPLAT").attr("src", "https://d13pxqgp3ixdbh.cloudfront.net/uploads/16529683600609ff3a5c98d8b2a1ac01c1e6129786.png")
 
 }
 
@@ -320,7 +320,7 @@ function END() {
 
                         $("#CTEXT").addClass("animate__" + TRANSITION1 + "Out");
 
-                        $("#FINAL_IMG").attr("src", "var/img/" + SELECTED_VB + ".png");
+                        $("#FINAL_IMG").attr("src", "https://d13pxqgp3ixdbh.cloudfront.net/uploads/1652968357548edc159552798ab399191f687f3918.png");
 
                         $("#FINAL_VB").text(SELECTED_VB);
 
